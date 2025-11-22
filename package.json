@@ -1,0 +1,22 @@
+{
+  "name": "webflow-algolia-sync",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "wrangler dev --test-scheduled",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "wrangler": "^4.50.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "algoliasearch": "^5.44.0",
+    "webflow-api": "^3.2.1"
+  }
+}

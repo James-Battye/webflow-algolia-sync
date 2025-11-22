@@ -1,0 +1,6 @@
+WEBFLOW_API_TOKEN=your_webflow_api_token_here
+WEBFLOW_SITE_ID=your_webflow_site_id_here
+ALGOLIA_APP_ID=your_algolia_app_id_here
+ALGOLIA_ADMIN_KEY=your_algolia_admin_api_key_here
+COLLECTIONS_TO_SYNC=blog-posts,products
+STATUS_FIELD=publish-status
